@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Buku Tamu</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav_wrapper">
+        <h1>Sinta & Jojo</h1>
+        <h3>Buku Tamu</h3>
+      </div>
+    </nav>
+
+    <main>
+      <div class="hero">
+        <h3>Pernikahan</h3>
+        <h1>Sinta & Jojo</h1>
+        <h3>Jakarta. 1 Desember 2024</h3>
+        <button onclick="isiBukuTamu()">Isi Buku Tamu</button>
+      </div>
+
+      <section>
+        <h1>Daftar Tamu</h1>
+
+        <table class="daftar_tamu_table">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama Lengkap</th>
+              <th>Alamat</th>
+              <th style="text-align: center">Keterangan</th>
+            </tr>
+          </thead>
+          <tbody id="tbody" class="tbody">
+            <!-- <tr>
+              <th>1</th>
+              <th>Deasty Jesica</th>
+              <th>Palembang</th>
+              <th style="text-align: center">ppp</th>
+            </tr> -->
+            <!-- DI RENDER DARI JS -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
